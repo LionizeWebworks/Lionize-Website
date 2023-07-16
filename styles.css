@@ -1,0 +1,104 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Scripty';
+    src: url('Fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'navbar';
+    src: url('../Fonts/AQUERO-1GE5M.TTF') format('opentype');
+  }
+
+
+body {
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-image: url(Images/white-marble.jpg);
+    border: 3px inset goldenrod;
+}
+
+#logo {
+    height: 6rem;
+    width: auto;
+}
+
+.lion {
+    height: 6rem;
+    width: auto;
+}
+
+.right {
+    transform: scaleX(-1);
+}
+
+header h2 {
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    color: rgb(37, 37, 37);
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+    display: absolute;
+    font-family: "Scripty";
+    font-size: 3.7rem;
+}
+
+nav {
+    background-image: url(Images/navbar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    background-color:white;
+    height: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px outset white;
+
+}
+
+nav ul {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family: "navbar", 'Times New Roman', Times, serif
+}
+
+nav, ul, li {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
